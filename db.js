@@ -5,8 +5,8 @@ const { Client } = require('pg');
 const client = new Client({
   host: 'localhost',
   port: 5432,
-  user: 'your-username', // Replace with your PostgreSQL username
-  password: 'your-password', // Replace with your PostgreSQL password
+  user: 'postgres', // Replace with your PostgreSQL username
+  password: '1', // Replace with your PostgreSQL password
   database: 'employee_manager_db', // Your database name
 });
 

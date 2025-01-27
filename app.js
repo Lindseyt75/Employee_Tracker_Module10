@@ -92,15 +92,15 @@ const startApp = async () => {
       case 'Update an employee role':
         await updateEmployeeRole();
         break;
-      // case 'Quit':
-      //   quit = true;
+      case 'Quit':
+        quit = true;
         break;
       default:
         break;
     }
   }
 
-  // process.exit();
+  process.exit();
 };
 
 startApp();
